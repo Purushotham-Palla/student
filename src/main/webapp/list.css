@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    /* font-family:cursive; */
+}
+body{
+    background-color: #E1EFFF;
+    color:#1F5692;
+
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.hero p {
+    font-size: 40px;
+    /*color: white;*/
+    font-weight: 560;
+}
+
+.titles{
+    margin-left: 10%;
+    display: flex;
+}
+.titles #sort{
+    padding: 10px;
+    border-radius: 10px;    
+}
+.titles a{
+    padding: 8px;
+    text-align: center;
+    background-color: #F66B1D;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.titles #create-button{
+    padding: 5px;
+}
+
+table {
+    margin-top: 40px;
+    width: 80%; 
+    border-collapse: collapse;
+    margin-left: 10%;
+    background-color: white;
+    
+}
+
+
+tr,td{
+    height: 25px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding-left: 10px; 
+    /* color: #1F5692;   */
+    
+}
+#studentid{
+    width: 100px;
+}
+
+#actionline{
+    width: 80px;
+}

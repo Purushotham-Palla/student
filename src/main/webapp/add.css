@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    /* font-family:cursive; */
+}
+body{
+    
+    background-image: url(register.png);
+    background-size: cover;
+}
+
+.hero
+{
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.hero p{
+    color: #1F5692;
+    font-size: 100px;   
+}
+.hero .content{
+    background-color: #F66B1D;
+    margin-top: 38px;
+    width: 460px;
+    height: 490px;
+    border-radius: 35px;
+    border: white;
+    padding-left: 50px;
+
+}
+.titles a{
+    padding: 10px;
+    background-color: #F66B1D;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    /* margin-left: 10px; */
+}
+.details{
+    margin-top: 10px;
+    padding-top: 20px;
+    /* background-color: wheat; */
+}
+.details label{
+    /* margin-top: 10px; */
+    /* padding-left: 20px; */
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+}
+.details input{
+    
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#studentName{
+    /* margin-top: 10px; */
+    height: 40px;
+    width:350px;
+    border-radius: 5px;
+    border: white;
+}
+
+#studentEmail{
+    height: 40px;
+    width:300px;
+    border-radius: 5px;
+    border: white;
+}
+
+#studentAge{
+    height: 40px;
+    width:240px;
+    border-radius: 5px;
+    border: white;
+}
+
+#submit{
+    height: 40px;
+    width: 120px;
+    /* margin-left: 30px; */
+    /* padding-left: 30px; */
+    border-radius: 5px;
+    border: white;
+}
+
+

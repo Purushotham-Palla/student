@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+*{
+    margin: 0;
+    /* font-family:cursive; */
+}
+body{
+    
+    background-image: url(index.png);
+    background-size: cover;
+}
+
+
+.hero{
+    margin-top: 253px;
+    padding-left: 150px;
+    margin-bottom: 90px;
+}
+.hero p{
+    color: #1F5692;
+    font-size: 120px;
+    line-height: 110px;
+}
+
+.captain{
+    padding-left: 150px;
+}
+
+.captain a{
+    /* font-family:serif; */
+    text-decoration: none;
+    color: #E1EFFF;
+    font-size: 21px;
+    /* font-weight: 800; */
+    background-color: #F66B1D;
+    padding: 20px 90px;
+    border-radius: 12px;
+}
+
